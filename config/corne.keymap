@@ -54,10 +54,10 @@
 
             label = "Base";
             bindings = <
-  &kp Q          &kp W        &kp E         &kp R            &kp T                              &kp Y                    &kp U             &kp I         &kp O        &kp P
-  &hml LSHIFT A  &hml LALT S  &hml LCTRL D  &hml LEFT_GUI F  &hml LS(LA(LC(LEFT_COMMAND))) G    &hmr RS(RA(RC(RGUI))) H  &hmr RIGHT_GUI J  &hmr RCTRL K  &hmr RALT L  &hmr RIGHT_SHIFT SEMI
-  &kp Z          &kp X        &kp C         &kp V            &kp B                              &kp N                    &kp M             &kp COMMA     &kp DOT      &kp FSLH
-                              &kp ESCAPE    &lt 2 BACKSPACE  &lt 1 TAB                          &lt 1 ENTER              &lt 2 SPACE       &kp DEL
+  &kp Q          &kp W        &kp E             &kp R               &kp T                              &kp Y                    &kp U             &kp I            &kp O        &kp P
+  &hml LSHIFT A  &hml LALT S  &hml LCTRL D      &hml LEFT_GUI F     &hml LS(LA(LC(LEFT_COMMAND))) G    &hmr RS(RA(RC(RGUI))) H  &hmr RIGHT_GUI J  &hmr RCTRL K     &hmr RALT L  &hmr RIGHT_SHIFT SEMI
+  &kp Z          &kp X        &kp C             &kp V               &kp B                              &kp N                    &kp M             &kp COMMA        &kp DOT      &kp FSLH
+                              &mt LCTRL ESCAPE  &mt LGUI BACKSPACE  &lt 1 TAB                          &lt 1 ENTER              &lt 2 SPACE       &mt RALT DELETE
             >;
         };
 
@@ -65,7 +65,7 @@
             bindings = <
   &kp NUMBER_1                 &kp NUMBER_2       &kp NUMBER_3            &kp NUMBER_4      &kp N5                           &kp NUMBER_6          &kp N7           &kp N8                    &kp N9                  &kp NUMBER_0
   &hml LEFT_SHIFT EXCLAMATION  &hml LALT AT_SIGN  &hml LEFT_CONTROL HASH  &hml LGUI DOLLAR  &hml LS(LA(LC(LGUI))) PERCENT    &kp RS(RA(RC(RGUI)))  &hmr RGUI MINUS  &hmr RIGHT_CONTROL EQUAL  &hmr RALT LEFT_BRACKET  &hmr RIGHT_SHIFT RIGHT_BRACKET
-  &kp GRAVE                    &trans             &trans                  &trans            &trans                           &trans                &trans           &trans                    &kp SINGLE_QUOTE        &kp BACKSLASH
+  &kp GRAVE                    &kp TILDE          &trans                  &trans            &trans                           &trans                &trans           &trans                    &kp SINGLE_QUOTE        &kp BACKSLASH
                                                   &kp ESCAPE              &kp BACKSPACE     &kp TAB                          &kp ENTER             &kp SPACE        &kp DELETE
             >;
 
@@ -83,8 +83,8 @@
             bindings = <
   &kp F1              &kp F2        &kp F3                &kp F4            &kp F5                       &kp C_PREV                  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP              &kp C_NEXT       &kp C_PP
   &hml LEFT_SHIFT F6  &hml LALT F7  &hml LEFT_CONTROL F8  &hml LEFT_GUI F9  &hml LS(LA(LC(LGUI))) F10    &hmr RS(RA(RC(RGUI))) LEFT  &hmr RGUI DOWN     &hmr RIGHT_CONTROL UP_ARROW  &hmr RALT RIGHT  &hmr RIGHT_SHIFT K_MUTE
-  &bt BT_SEL 0        &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3      &bt BT_SEL 4                 &kp KP_NUMBER_4             &kp KP_NUMBER_2    &kp KP_NUMBER_8              &kp KP_NUMBER_6  &kp CAPSLOCK
-                                    &bt BT_CLR            &kp F11           &kp F12                      &mkp RCLK                   &mkp LCLK          &mkp MB3
+  &bt BT_SEL 0        &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3      &kp F11                      &kp KP_NUMBER_4             &kp KP_NUMBER_2    &kp KP_NUMBER_8              &kp KP_NUMBER_6  &kp CAPSLOCK
+                                    &mkp RCLK             &mkp LCLK         &kp F12                      &trans                      &trans             &bt BT_CLR
             >;
         };
     };
