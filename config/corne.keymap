@@ -50,6 +50,16 @@
             key-positions = <32 10>;
             layers = <0>;
         };
+
+        cmd+tyld {
+            bindings = <&kp LG(TILDE)>;
+            key-positions = <32 20>;
+        };
+
+        ctrl+tab {
+            bindings = <&none>;
+            key-positions = <32 0>;
+        };
     };
 
     keymap {
