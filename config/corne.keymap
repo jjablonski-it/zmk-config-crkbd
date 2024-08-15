@@ -91,10 +91,10 @@
 
             label = "Nav";
             bindings = <
-  &kp F1              &kp F2        &kp F3                &kp F4            &kp F5                       &kp C_PREV                  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP              &kp C_NEXT       &kp C_PP
-  &hml LEFT_SHIFT F6  &hml LALT F7  &hml LEFT_CONTROL F8  &hml LEFT_GUI F9  &hml LS(LA(LC(LGUI))) F10    &hmr RS(RA(RC(RGUI))) LEFT  &hmr RGUI DOWN     &hmr RIGHT_CONTROL UP_ARROW  &hmr RALT RIGHT  &hmr RIGHT_SHIFT K_MUTE
-  &bt BT_SEL 0        &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3      &kp F11                      &kp KP_NUMBER_4             &kp KP_NUMBER_2    &kp KP_NUMBER_8              &kp KP_NUMBER_6  &kp CAPSLOCK
-                                    &mkp RCLK             &mkp LCLK         &kp F12                      &trans                      &trans             &bt BT_CLR
+  &kp F1              &kp F2        &kp F3                &kp F4            &kp F5                       &kp C_PREV       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT       &kp C_PP
+  &hml LEFT_SHIFT F6  &hml LALT F7  &hml LEFT_CONTROL F8  &hml LEFT_GUI F9  &hml LS(LA(LC(LGUI))) F10    &kp LEFT         &kp DOWN_ARROW     &kp UP_ARROW     &kp RIGHT_ARROW  &hmr RIGHT_SHIFT K_MUTE
+  &bt BT_SEL 0        &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3      &kp F11                      &kp KP_NUMBER_4  &kp KP_NUMBER_2    &kp KP_NUMBER_8  &kp KP_NUMBER_6  &kp CAPSLOCK
+                                    &mkp RCLK             &mkp LCLK         &kp F12                      &trans           &trans             &bt BT_CLR
             >;
         };
     };
