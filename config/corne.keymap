@@ -57,7 +57,7 @@
         };
 
         ctrl+tab {
-            bindings = <&none>;
+            bindings = <&kp LC(TAB)>;
             key-positions = <32 0>;
         };
     };
