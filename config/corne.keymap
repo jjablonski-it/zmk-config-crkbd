@@ -42,6 +42,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        cmd+tab {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <32 10>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
