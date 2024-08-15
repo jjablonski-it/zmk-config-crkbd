@@ -40,27 +40,22 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 33 34 35 32 31 30>;
         };
-    };
 
-    combos {
-        compatible = "zmk,combos";
+        tab: tab {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAB";
+            bindings = <&kp>, <&kp>;
 
-        cmd+tab {
-            bindings = <&kp LG(TAB)>;
-            key-positions = <32 10>;
-            layers = <0>;
-        };
-
-        cmd+tyld {
-            bindings = <&kp LG(TILDE)>;
-            key-positions = <32 20>;
-        };
-
-        ctrl+tab {
-            bindings = <&kp LC(TAB)>;
-            key-positions = <32 0>;
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <32 20 10 0>;
         };
     };
+
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
