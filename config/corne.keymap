@@ -68,7 +68,7 @@
             label = "Base";
             bindings = <
   &kp Q          &kp W        &kp E             &kp R               &kp T                              &kp Y                    &kp U             &kp I            &kp O        &kp P
-  &hml LSHIFT A  &hml LALT S  &hml LCTRL D      &hml LEFT_GUI F     &hml LS(LA(LC(LEFT_COMMAND))) G    &hmr RS(RA(RC(RGUI))) H  &hmr RIGHT_GUI J  &hmr RCTRL K     &hmr RALT L  &hmr RIGHT_SHIFT SEMI
+  &hml LSHIFT A  &hml LALT S  &hml LCTRL D      &hml LEFT_GUI F     &hml LS(LA(LC(LEFT_COMMAND))) G    &hmr RS(RA(RC(RGUI))) H  &hmr RIGHT_GUI J  &hmr RCTRL K     &hmr RALT L  &hmr RIGHT_SHIFT SINGLE_QUOTE
   &kp Z          &kp X        &kp C             &kp V               &kp B                              &kp N                    &kp M             &kp COMMA        &kp DOT      &kp FSLH
                               &mt LCTRL ESCAPE  &mt LGUI BACKSPACE  &lt 1 TAB                          &lt 1 ENTER              &lt 2 SPACE       &mt RALT DELETE
             >;
@@ -78,7 +78,7 @@
             bindings = <
   &kp NUMBER_1                 &kp NUMBER_2       &kp NUMBER_3            &kp NUMBER_4      &kp N5                           &kp NUMBER_6          &kp N7           &kp N8                    &kp N9                  &kp NUMBER_0
   &hml LEFT_SHIFT EXCLAMATION  &hml LALT AT_SIGN  &hml LEFT_CONTROL HASH  &hml LGUI DOLLAR  &hml LS(LA(LC(LGUI))) PERCENT    &kp RS(RA(RC(RGUI)))  &hmr RGUI MINUS  &hmr RIGHT_CONTROL EQUAL  &hmr RALT LEFT_BRACKET  &hmr RIGHT_SHIFT RIGHT_BRACKET
-  &kp GRAVE                    &kp TILDE          &trans                  &trans            &trans                           &trans                &trans           &trans                    &kp SINGLE_QUOTE        &kp BACKSLASH
+  &kp GRAVE                    &kp TILDE          &trans                  &trans            &trans                           &trans                &kp SEMICOLON    &trans                    &kp SINGLE_QUOTE        &kp BACKSLASH
                                                   &kp ESCAPE              &kp BACKSPACE     &kp TAB                          &kp ENTER             &kp SPACE        &kp DELETE
             >;
 
