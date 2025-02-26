@@ -4,10 +4,11 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     chosen { zmk,matrix_transform = &five_column_transform; };
@@ -76,10 +77,10 @@
 
         num {
             bindings = <
-  &kp NUMBER_1                 &kp NUMBER_2       &kp NUMBER_3            &kp NUMBER_4      &kp N5                           &kp NUMBER_6          &kp N7           &kp N8                    &kp N9                  &kp NUMBER_0
-  &hml LEFT_SHIFT EXCLAMATION  &hml LALT AT_SIGN  &hml LEFT_CONTROL HASH  &hml LGUI DOLLAR  &hml LS(LA(LC(LGUI))) PERCENT    &kp RS(RA(RC(RGUI)))  &hmr RGUI MINUS  &hmr RIGHT_CONTROL EQUAL  &hmr RALT LEFT_BRACKET  &hmr RIGHT_SHIFT RIGHT_BRACKET
-  &kp GRAVE                    &kp TILDE          &trans                  &trans            &trans                           &kp COLON             &kp SEMICOLON    &kp PLUS                  &kp SINGLE_QUOTE        &kp BACKSLASH
-                                                  &kp ESCAPE              &kp BACKSPACE     &kp TAB                          &kp ENTER             &kp SPACE        &kp DELETE
+  &kp NUMBER_1                 &kp NUMBER_2       &kp NUMBER_3             &kp NUMBER_4                &kp N5                           &kp NUMBER_6          &kp N7         &kp N8      &kp N9                  &kp NUMBER_0
+  &hml LEFT_SHIFT EXCLAMATION  &hml LALT AT_SIGN  &hml LEFT_CONTROL HASH   &hml LGUI DOLLAR            &hml LS(LA(LC(LGUI))) PERCENT    &kp RS(RA(RC(RGUI)))  &kp MINUS      &kp EQUAL   &hmr RALT LEFT_BRACKET  &hmr RIGHT_SHIFT RIGHT_BRACKET
+  &kp GRAVE                    &kp TILDE          &trans                   &trans                      &trans                           &kp COLON             &kp SEMICOLON  &kp PLUS    &kp SINGLE_QUOTE        &kp BACKSLASH
+                                                  &mt LEFT_CONTROL ESCAPE  &mt LEFT_COMMAND BACKSPACE  &kp TAB                          &kp ENTER             &kp SPACE      &kp DELETE
             >;
 
             label = "Num";
